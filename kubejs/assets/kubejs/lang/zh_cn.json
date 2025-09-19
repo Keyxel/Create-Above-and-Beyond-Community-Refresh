@@ -910,7 +910,7 @@
 "quest.overview.supply.text2":"穿过堆积如山的破旧机械，你的脚步在寂静中格外清晰。突然，角落里一个漆黑的石制箱子引起了你的注意。它半掩在油布下，锁扣已经被撬开，仿佛有人匆忙翻动过。箱体上模糊的标签依稀能辨认出“&6&l智能计算机&r”的字样，但具体内容已被涂黑。",
 "tip.kubejs.supply":"获得AE2初始物资补给卡[需要开启作弊]",
 "quest.overview.supply.text3":"你可以通过输入下面的指令来重复获得该物品。",
-"quest.overview.supply.text4":"&6注：改物品为作弊道具，用于前期跳科技用。",
+"quest.overview.supply.text4":"&6注：该物品为作弊道具，用于前期跳科技用。",
 "quest.overview.supply.text5":"&6 /give @p kubejs:ae2_supply_card",
 
 "quest.overview.basic_machines.title":"&f&l准备得当",
