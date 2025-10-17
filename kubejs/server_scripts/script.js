@@ -785,6 +785,18 @@ function tweaks(event) {
 	striping('biomesoplenty:fir_wood','biomesoplenty:stripped_fir_wood')
 	striping('architects_palette:twisted_wood','architects_palette:stripped_twisted_wood')
 	striping('create_dd:rose_wood','create_dd:stripped_rose_wood')
+
+	event.remove({ id: TC('smeltery/melting/metal/iron/cauldron')})
+	event.custom({
+		"type": "tconstruct:melting",
+		"ingredient": { "item": MC("cauldron") },
+		"result": {
+			"fluid": TC("molten_iron"),
+			"amount": 300
+		},
+		"temperature": 200,
+		"time": 20
+	})
 }
 
 onEvent('recipes.compostables',event=>{
